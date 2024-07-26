@@ -4,7 +4,6 @@ import com.sky.mokito.Employee.Employee;
 
 import java.util.Map;
 
-
 public interface EmployeeService {
 
     Employee addEmployee(String firstName, String lastName, Integer salary, Integer department);

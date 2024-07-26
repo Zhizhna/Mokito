@@ -27,10 +27,8 @@ public class DepartmentServiceTest {
         add(new Employee("Ivan", "Petrov1", 100_000, 1));
         add(new Employee("Ivan", "Petrov2", 200_000, 1));
         add(new Employee("Ivan", "Petrov3", 300_000, 1));
-
         add(new Employee("Ivan", "Petrov4", 100_000, 2));
         add(new Employee("Ivan", "Petrov5", 100_000, 2));
-
         add(new Employee("Ivan", "Petrov6", 10_000, 3));
     }};
 

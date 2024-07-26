@@ -27,7 +27,6 @@ public class EmployeeServiceImpl implements EmployeeService {
     @Override
     public Employee addEmployee(String firstName, String lastName, Integer salary, Integer department) {
         String employeeKey = getEmployeeKey(firstName, lastName);
-
         if (employees.containsKey(employeeKey)) {
             throw new EmployeeAlreadyAddedException("Сотрудник уже есть в хранилище!");
         }
